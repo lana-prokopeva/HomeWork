@@ -5,7 +5,7 @@ int numberA = int.Parse(Console.ReadLine());
 Console.Write("Введите второе число: ");
 int numberB = int.Parse(Console.ReadLine());
 int maxNumber = numberA;
-// Оперделяем большее число
+// Определяем большее число
 if (maxNumber > numberB)
 {
     maxNumber = numberA;    
